@@ -1,0 +1,20 @@
+{
+  "name": "svelte-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "rollup -c -w",
+    "start": "sirv public"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^15.3.0",
+    "rollup": "^4.27.4",
+    "rollup-plugin-svelte": "^7.2.2",
+    "sirv-cli": "^3.0.0",
+    "svelte": "^5.2.10"
+  }
+}
